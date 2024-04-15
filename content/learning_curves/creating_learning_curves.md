@@ -8,7 +8,7 @@ Learning curves are a graphical representation of the output of some continuous 
 
 For example, as training set size increases, we can expect dev set error to decrease. Identifying the global maximum of this graph will identify the optimal training set size
 
-![Error vs training set size](/machine_learning_yearning/images/error_vs_training_set_size.jpg?classes=left)
+![Error vs training set size](/Machine_Learning_Yearning/images/error_vs_training_set_size.jpg?classes=left)
 
 ## Interpreting learning curves
 
@@ -16,25 +16,25 @@ For example, as training set size increases, we can expect dev set error to decr
 
 Plateau regions will not benefit from further increases in training set size. In this graph, the optimal training set size is just before the plateau at what is called the elbow point.
 
-![Error plateau](/machine_learning_yearning/images/error_plateau.jpg?classes=left)
+![Error plateau](/Machine_Learning_Yearning/images/error_plateau.jpg?classes=left)
 
 ###### Including training error
 
 When the training set size increases, the training error should increase because we are introducing more variability into the training set data and thus it is more difficult to fit a trend to noisier data. 
 
-![Including training error](/machine_learning_yearning/images/dev_and_train_error_vs_training_set_size.jpg?classes=left)
+![Including training error](/Machine_Learning_Yearning/images/dev_and_train_error_vs_training_set_size.jpg?classes=left)
 
 ###### High avoidable bias
 
 When there is a small discrepancy between dev and training error, we know that we cannot improve performance by better generalization to the dev set. Thus, adding more data to the training set will not improve dev set performance.
 
-![High avoidable bias](/machine_learning_yearning/images/high_avoidable_bias.jpg?classes=left)
+![High avoidable bias](/Machine_Learning_Yearning/images/high_avoidable_bias.jpg?classes=left)
 
 ###### High variance
 
 When there is a large discrepancy between bias and variance and bias is almost optimal, there is likely some overfitting occurring which can leak performance. Therefore, adding more data to the training set will gradually increase dev set performance.
 
-![High variance](/machine_learning_yearning/images/high_variance.jpg?classes=left)
+![High variance](/Machine_Learning_Yearning/images/high_variance.jpg?classes=left)
 
 ###### Noisy learning curves
 
