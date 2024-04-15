@@ -1,4 +1,4 @@
-baseURL = 'https://bio-recap.github.io/machine_learning_yearning/'
+baseURL = 'https://bio-recap.github.io/Machine_Learning_Yearning/'
 languageCode = 'en-us'
 title = 'Machine Learning Yearning'
 theme = 'study_blog_relearn'
